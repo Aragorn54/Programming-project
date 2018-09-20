@@ -1,0 +1,7 @@
+while True:
+  Username = input ('Enter your Username:')
+
+  if Username == ('hussain'or'john'):
+    print('Username Approved')
+    break
+  print('Username Denied')
