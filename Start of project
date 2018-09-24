@@ -1,7 +1,8 @@
 while True:
   Username = input ('Enter your Username:')
 
-  if Username == ('hussain'or'john'):
+  if Username == 'hussain'or Username == 'john':
+    Username.lower()
     print('Username Approved')
     break
   print('Username Denied')
